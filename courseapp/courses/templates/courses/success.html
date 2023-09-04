@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'courses/css/stayle.css' %}">
+{% endblock  %}
+
+{% block title %}
+{% endblock  %}
+
+
+{% block content %}
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                
+                <p class="bg-light-subtle"><img src="https://cdn-icons-png.flaticon.com/512/7518/7518748.png" style="width: 25px;">Dosyanız Başarılı Bir Şekilde Yüklendi.</p>
+            </div>
+        </div>
+    </div>
+{% endblock  %}
+
+
+{% block js_files %}
+    <script src={% static 'courses/js/script.js' %}></script>
+{% endblock  %}
